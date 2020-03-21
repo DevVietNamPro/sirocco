@@ -1,0 +1,13 @@
+.navbar-top {
+  background-color: #C7D9F0;
+  padding: 0;
+  border-bottom: solid 1px #5182BB;
+  justify-content: flex-end;
+  .navbar-nav {
+    .nav-item {
+      &.active {
+        background-color: #EBF1DF;
+      }
+    }
+  }
+}
