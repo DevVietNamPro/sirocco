@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   resources :home
   resources :introduces
 
+  get 'gia-cong-vai', to: "home#fabric_processing"
 end

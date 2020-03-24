@@ -1,0 +1,35 @@
+.fabric-processing-page {
+  padding-top: 1rem;
+  .block {
+    background-color: #E1E1E1;
+    border-radius: 20px;
+    padding: 1.5rem;
+    &:nth-child(2n + 2) {
+      margin-top: 1rem;
+    }
+    .title {
+      font-size: 20px;
+      line-height: 20px;
+      font-weight: 300;
+      margin-bottom: 1.5rem;
+    }
+    .sub-title {
+      color: #564B3D;
+      font-size: 18px;
+      line-height: 18px;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 16px;
+      line-height: 16px;
+      font-weight: 300;
+      &.note {
+        font-weight: 600;
+        color: #FC0D1B;
+        margin-top: 2rem;
+        line-height: 20px;
+      }
+    }
+  }
+}
