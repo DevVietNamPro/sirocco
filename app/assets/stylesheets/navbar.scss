@@ -9,5 +9,10 @@
         background-color: #EBF1DF;
       }
     }
+    .nav-link {
+      &:hover {
+        color: #224A7B;
+      }
+    }
   }
 }
