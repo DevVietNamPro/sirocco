@@ -17,6 +17,11 @@
         }
       }
     }
+    .nav-link {
+      &:hover {
+        color: #224A7B;
+      }
+    }
   }
 }
 

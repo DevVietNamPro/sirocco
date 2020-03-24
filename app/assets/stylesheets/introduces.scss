@@ -1,0 +1,19 @@
+// Place all the styles related to the introduces controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.introduce {
+  margin-top: 50px;
+  .title {
+    color: #224A7B;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  .wrapper-introduce {
+    width: 80%;
+    padding: 15px;
+    border: 5px solid #224A7B;
+    background-color: white;
+  }
+}
